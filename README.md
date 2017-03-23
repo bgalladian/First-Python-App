@@ -2,8 +2,9 @@
 by Bedig, Fiona, & Dan
 
 ## Why Python/Django?
-Python is a powerful, flexible, open source language that is easy to learn, easy to use, and has powerful libraries for data manipulation and analysis. ... According to the TIOBE index, Python is one of the most popular programming languages in the world, ranking higher than Perl, Ruby, and JavaScript by a wide margin.
+Python is a powerful, flexible, open source language that is easy to learn, easy to use, and has powerful libraries for data manipulation and analysis. ... According to the TIOBE index, Python is one of the most popular programming languages in the world, ranking higher than Perl, Ruby, and JavaScript by a wide margin. Some other strong features: conditional logic, abstract data types, dictionaries.
 
+Django is a high-level Python Web Framework that takes care of much of the hassle of Web development, allowing us to focus on writing our app. It is a lightweight server for development and testing, it includes many strong features such as CSRF (Cross-site request forgery) security feature.
 
 ## What problem does it solve?
 - It allows you to divide code modules into logical groups to make it flexible to change
@@ -24,7 +25,7 @@ Django was born in the fall of 2003, when the web programmers at the Lawrence Jo
 It is open-sourced and maintained by the Django Software Foundation.
 
 ## What is your opinion on the technology after having built something with it?
-It was easy to use and easy to learn.
+It was easy to use and easy to learn. It has the same structure as most language framworks (MVC).
 
 ## What are the biggest conceptual hurdles (if any) you encountered when researching this?
 I noticed that although it was a lot more straight forward. The code seem to be less DRY.
@@ -39,6 +40,7 @@ https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
 Answer: Features available in Django are
 
 Admin Interface (CRUD)
+CSRF (Cross-site request forgery) security feature
 Templating
 Form handling
 Internationalization
@@ -46,6 +48,7 @@ Session, user management, role-based permissions
 Object-relational mapping (ORM)
 Testing Framework
 Fantastic Documentation
+
 
 2. What are the components of the architecture of Django?
 
@@ -67,4 +70,4 @@ Answer: pip install virtualenv
 ## Necessary Instructions
 1. brew install python3
 2. install pip
-3. run server (python manage py run server)
+3. run server (python manage.py run server)
